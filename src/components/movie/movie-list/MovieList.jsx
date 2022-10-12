@@ -21,7 +21,7 @@ const MovieList = ({ movies, removeMovieHandler }) => {
   Modal.setAppElement('#root');
 
   const deleteMovieHandler = (id) => {
-    fetch('http://localhost:9000/movie/', {
+    fetch('https://sanath-movies-backend.herokuapp.com/movie/', {
       method: 'DELETE',
       headers: {
         'Accept': 'application/json',

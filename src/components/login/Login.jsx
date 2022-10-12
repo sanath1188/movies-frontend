@@ -15,7 +15,7 @@ const Login = () => {
 
   const loginHandler = async () => {
     /** API call */
-    await fetch('http://localhost:9000/user/login', {
+    await fetch('https://sanath-movies-backend.herokuapp.com/user/login', {
       method: 'POST',
       // mode: "no-cors",
       headers: {

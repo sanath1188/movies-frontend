@@ -4,7 +4,7 @@ import './AddMovie.css'
 import { getCookie } from '../../../utils/cookie'
 const AddMovie = (props) => {
   const onSaveMovieData = (newMovie) => {
-    fetch('http://localhost:9000/movie/create', {
+    fetch('https://sanath-movies-backend.herokuapp.com/movie/create', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

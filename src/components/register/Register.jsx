@@ -24,7 +24,7 @@ const Register = () => {
 
   const registerHandler = async () => {
     /** API call */
-    await fetch('http://localhost:9000/user/register', {
+    await fetch('https://sanath-movies-backend.herokuapp.com/user/register', {
       method: 'POST',
       // mode: "no-cors",
       headers: {

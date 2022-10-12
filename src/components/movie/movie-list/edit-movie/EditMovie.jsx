@@ -35,7 +35,7 @@ const EditMovie = ({movie}) => {
 
     const movieData = { id: movie.id, name, genre, cast, rating, releaseDate};
 
-    fetch('http://localhost:9000/movie/', {
+    fetch('https://sanath-movies-backend.herokuapp.com/movie/', {
       method: 'PUT',
       headers: {
         'Accept': 'application/json',

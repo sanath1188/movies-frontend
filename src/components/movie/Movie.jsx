@@ -11,7 +11,7 @@ const Movie = () => {
   const [selectedMovie, setSelectedMovie] = useState(null);
   
   useEffect(() => {
-    fetch('http://localhost:9000/user/me', {
+    fetch('https://sanath-movies-backend.herokuapp.com/user/me', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
@@ -24,7 +24,7 @@ const Movie = () => {
       setLastName(jsondata.data.user.last_name)
     })
 
-    fetch('http://localhost:9000/movie/', {
+    fetch('https://sanath-movies-backend.herokuapp.com/movie/', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
