@@ -1,0 +1,13 @@
+.user-bar {
+  width: 99%;
+  height: 25px;
+
+  background-color: #7d1a6a75;
+
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 18px;
+}

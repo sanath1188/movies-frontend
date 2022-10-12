@@ -1,0 +1,15 @@
+.movie-table {
+  display: table;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.movie-table tr td{
+  text-align: center;
+}
+
+.movie-table tr td span{
+  padding-left: 10px;
+  color: blue;
+  cursor: pointer;
+}

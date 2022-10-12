@@ -1,0 +1,20 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+.login__fields {
+  display: grid;
+}
+
+.login__fields input {
+  margin-bottom: 10px;
+
+  width: 180px;
+  height: 26px;
+
+  font-size: 14px;
+}
