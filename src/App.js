@@ -4,12 +4,14 @@ import { Route, Link, Routes, Navigate } from 'react-router-dom';
 import Login from './components/login/Login';
 import Register from './components/register/Register';
 import Movie from './components/movie/Movie';
+import Logout from './components/logout/Logout';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/login" />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/logout" element={<Logout />} />
       <Route path="/register" element={<Register />} />
       <Route path="/movie" element={<Movie />} />
     </Routes>
